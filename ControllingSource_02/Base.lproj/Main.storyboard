@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -53,6 +54,7 @@
                         <viewControllerLayoutGuide type="bottom" id="G1a-hu-2DA"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="aZH-O6-DBd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="elcaption" translatesAutoresizingMaskIntoConstraints="NO" id="I82-yp-hhY">
@@ -86,14 +88,14 @@
                                 <exclude reference="pYa-Ik-e68"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="3TX-aq-nMp"/>
-                                <exclude reference="chH-SU-ybL"/>
-                                <exclude reference="osd-Lb-d5r"/>
+                                <exclude reference="Pdq-fa-2qf"/>
+                                <exclude reference="aSw-VN-fGn"/>
                                 <exclude reference="GMn-Jj-IAc"/>
                                 <exclude reference="aYg-d3-6us"/>
                                 <exclude reference="muY-DW-WR1"/>
-                                <exclude reference="Pdq-fa-2qf"/>
-                                <exclude reference="aSw-VN-fGn"/>
+                                <exclude reference="3TX-aq-nMp"/>
+                                <exclude reference="chH-SU-ybL"/>
+                                <exclude reference="osd-Lb-d5r"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -102,14 +104,14 @@
                                 <include reference="pYa-Ik-e68"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="3TX-aq-nMp"/>
-                                <include reference="chH-SU-ybL"/>
-                                <include reference="osd-Lb-d5r"/>
+                                <include reference="Pdq-fa-2qf"/>
+                                <include reference="aSw-VN-fGn"/>
                                 <include reference="GMn-Jj-IAc"/>
                                 <include reference="aYg-d3-6us"/>
                                 <include reference="muY-DW-WR1"/>
-                                <include reference="Pdq-fa-2qf"/>
-                                <include reference="aSw-VN-fGn"/>
+                                <include reference="3TX-aq-nMp"/>
+                                <include reference="chH-SU-ybL"/>
+                                <include reference="osd-Lb-d5r"/>
                             </mask>
                         </variation>
                     </view>
@@ -157,6 +159,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="elcaption" width="2560" height="1600"/>
+        <image name="elcaption" width="512" height="512"/>
     </resources>
 </document>
