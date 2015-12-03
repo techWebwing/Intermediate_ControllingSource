@@ -19,6 +19,7 @@
 		90B98F1A1C1040F700B610AD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B98F191C1040F700B610AD /* FirstViewController.m */; };
 		90B98F1D1C10410D00B610AD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B98F1C1C10410D00B610AD /* SecondViewController.m */; };
 		90B98F201C10416F00B610AD /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B98F1F1C10416F00B610AD /* InitialViewController.m */; };
+		90B98F241C1069D500B610AD /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90B98F231C1069D500B610AD /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,8 @@
 		90B98F1C1C10410D00B610AD /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		90B98F1E1C10416F00B610AD /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
 		90B98F1F1C10416F00B610AD /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
+		90B98F221C1069D500B610AD /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		90B98F231C1069D500B610AD /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 				90B98F191C1040F700B610AD /* FirstViewController.m */,
 				90B98F1B1C10410D00B610AD /* SecondViewController.h */,
 				90B98F1C1C10410D00B610AD /* SecondViewController.m */,
+				90B98F221C1069D500B610AD /* TestViewController.h */,
+				90B98F231C1069D500B610AD /* TestViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -302,6 +307,7 @@
 				90B98F1A1C1040F700B610AD /* FirstViewController.m in Sources */,
 				90B98F171C1040D900B610AD /* HomeScreenTabBarViewController.m in Sources */,
 				90B98F201C10416F00B610AD /* InitialViewController.m in Sources */,
+				90B98F241C1069D500B610AD /* TestViewController.m in Sources */,
 				90B98EE11C10403900B610AD /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +532,7 @@
 				90B98F0E1C10403900B610AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90B98F0F1C10403900B610AD /* Build configuration list for PBXNativeTarget "ControllingSource_02Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +541,7 @@
 				90B98F111C10403900B610AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90B98F121C10403900B610AD /* Build configuration list for PBXNativeTarget "ControllingSource_02UITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				90B98F141C10403900B610AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

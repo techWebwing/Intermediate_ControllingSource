@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  TestViewController.h
 //  ControllingSource_02
 //
 //  Created by Rohan Pawar on 03/12/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
-- (IBAction)srgv:(id)sender;
-
+@interface TestViewController : UIViewController
 
 @end

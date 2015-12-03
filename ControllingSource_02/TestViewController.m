@@ -1,18 +1,18 @@
 //
-//  FirstViewController.m
+//  TestViewController.m
 //  ControllingSource_02
 //
 //  Created by Rohan Pawar on 03/12/15.
 //  Copyright © 2015 webwing. All rights reserved.
 //
 
-#import "FirstViewController.h"
+#import "TestViewController.h"
 
-@interface FirstViewController ()
+@interface TestViewController ()
 
 @end
 
-@implementation FirstViewController
+@implementation TestViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,7 +34,4 @@
 }
 */
 
-- (IBAction)srgv:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:Nil];
-}
 @end
